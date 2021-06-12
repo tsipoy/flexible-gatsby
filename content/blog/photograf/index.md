@@ -2,7 +2,7 @@
 title: Photography mockup-to-website project
 date: 2019-09-12
 description: # Add post description (optional)
-img: ./photoraph.png # Add image post (optional)
+img: ./photograph.png # Add image post (optional)
 tags: [Html and  Sass project]
 ---
 
