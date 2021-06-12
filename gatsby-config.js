@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Flexible Gatsby`,
     description: `I am a web developer focusing on front-end development. Always hungry to keep learning.`,
-    author: `David Freeman`,
+    author: `Sariaka Natacha`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
       twitter: `wang0nya`,
@@ -35,8 +35,8 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 970,
-	      withWebp: true,
-	      withAvif: true,
+              withWebp: true,
+              withAvif: true,
             },
           },
           {
