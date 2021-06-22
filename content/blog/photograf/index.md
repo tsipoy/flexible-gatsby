@@ -1,9 +1,8 @@
 ---
 title: Photography mockup-to-website project
-date: 2019-09-12
 description: # Add post description (optional)
-img: ./photograph.png # Add image post (optional)
+img: ./photograph-pic.png # Add image post (optional)
 tags: [Html and  Sass project]
 ---
 
-Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo park gentrify. Stumptown brooklyn godard tumeric ethical. Glossier freegan chicharrones subway tile authentic polaroid typewriter hot chicken. Thundercats small batch heirloom meggings.
+This is a photograph project based on HTML and SASS. It was built to help us to understand html semantics by adding sass. It also helped us to understand more about css variables. Even though this project is based on html and sass, we add a bit of javascript to make it nicer. So, in terms of making the images change when the user clicks on the small images we add the javascript. Additionally, we learned to optimize images in this project as it used more images in it using tiny.jpg which can prevent the page from loading so long.
