@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Flexible Gatsby`,
+    title: `Natacha Portfolio`,
     description: `I am a web developer focusing on front-end development. Always hungry to keep learning.`,
     author: `Sariaka Natacha`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
       twitter: `wang0nya`,
       facebook: ``,
-      github: `wangonya`,
+      github: `Tsipoy/`,
       linkedin: `wangonya`,
-      email: `kwangonya@gmail.com`,
+      email: `natacha.har@onja.org`,
     },
   },
   plugins: [

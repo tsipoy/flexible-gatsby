@@ -21,26 +21,6 @@ const Sidebar = ({ siteMetadata }) => (
         <section className="contact">
           <h3 className="contact-title">Contact me</h3>
           <ul>
-            {siteMetadata.social.twitter && (
-              <li>
-                <a
-                  href={`https://twitter.com/${siteMetadata.social.twitter}`}
-                  target="_blank"
-                >
-                  <i className="fa fa-twitter" aria-hidden="true" />
-                </a>
-              </li>
-            )}
-            {siteMetadata.social.facebook && (
-              <li>
-                <a
-                  href={`https://facebook.com/${siteMetadata.social.facebook}`}
-                  target="_blank"
-                >
-                  <i className="fa fa-facebook" aria-hidden="true" />
-                </a>
-              </li>
-            )}
             {siteMetadata.social.github && (
               <li>
                 <a
@@ -48,16 +28,6 @@ const Sidebar = ({ siteMetadata }) => (
                   target="_blank"
                 >
                   <i className="fa fa-github" aria-hidden="true" />
-                </a>
-              </li>
-            )}
-            {siteMetadata.social.linkedin && (
-              <li>
-                <a
-                  href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`}
-                  target="_blank"
-                >
-                  <i className="fa fa-linkedin" aria-hidden="true" />
                 </a>
               </li>
             )}
@@ -72,7 +42,7 @@ const Sidebar = ({ siteMetadata }) => (
         </section>
         <div className="copyright">
           <p>
-            {new Date().getFullYear()} &copy; {siteMetadata.author}
+            {new Date().getFullYear()} {siteMetadata.author}
           </p>
         </div>
       </footer>
