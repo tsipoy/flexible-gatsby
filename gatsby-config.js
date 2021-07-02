@@ -5,10 +5,7 @@ module.exports = {
     author: `Sariaka Natacha`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
-      twitter: `wang0nya`,
-      facebook: ``,
       github: `Tsipoy/`,
-      linkedin: `wangonya`,
       email: `natacha.har@onja.org`,
     },
   },

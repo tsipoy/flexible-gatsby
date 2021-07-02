@@ -16,9 +16,6 @@ const DefaultLayout = ({ children }) => (
             author
             description
             social {
-              twitter
-              facebook
-              linkedin
               github
               email
             }
@@ -26,7 +23,7 @@ const DefaultLayout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <div className="wrapper">
         <Helmet>
           <link

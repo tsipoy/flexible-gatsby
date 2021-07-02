@@ -22,6 +22,39 @@
   }
 }
 
+.page-figma {
+  font-size: 18px;
+  padding-block-end: 16px;
+}
+
+.page-source-demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+  a {
+    text-decoration: none;
+    color: #515151;
+  }
+  .page-source,
+  .page-demo {
+    background-color: transparent;
+    border: none;
+    a {
+      display: flex;
+      flex-direction: column;
+    }
+    span {
+      font-size: 19px;
+      padding-block-end: 8px;
+      color: #515151;
+      svg {
+        fill: #515151;
+      }
+    }
+  }
+}
+
 .page-cover-image {
   position: relative;
   padding: 0;
@@ -55,7 +88,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 30px;
-  margin: 30px 0  ;
+  margin: 30px 0;
   border-bottom: 1px solid $dark-gray;
   .page-share {
     margin-bottom: 10px;
@@ -69,7 +102,7 @@
       margin-left: 5px;
       color: $dark-blue;
       font-size: 12px;
-      transition: background-color .3s;
+      transition: background-color 0.3s;
       &:first-child {
         margin-left: 0;
       }
