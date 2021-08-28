@@ -15,12 +15,11 @@ const Tags = ({ pageContext, data }) => {
           <h1>{tagHeader}</h1>
           <ul className="tag-list">
             {edges.map(({ node }) => {
-              const { title, date } = node.frontmatter
+              const { title } = node.frontmatter
               const { slug } = node.fields
               return (
                 <li key={slug}>
                   <Link to={slug}>{title}</Link>
-                  <small> | {date}</small>
                 </li>
               )
             })}
@@ -40,7 +39,7 @@ export const pageQuery = graphql`
   query($tag: String) {
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___demo], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
@@ -51,7 +50,6 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

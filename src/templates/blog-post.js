@@ -37,9 +37,6 @@ class BlogPostTemplate extends React.Component {
               <div className="wrap-content">
                 <header className="header-page">
                   <h1 className="page-title">{post.frontmatter.title}</h1>
-                  <div className="page-date">
-                    <span>{post.frontmatter.date}</span>
-                  </div>
                 </header>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="page-figma">
@@ -118,7 +115,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "YYYY, MMM DD")
         tags
         demo
         source
